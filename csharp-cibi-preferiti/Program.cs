@@ -19,4 +19,7 @@ Console.WriteLine("\nL'ultima pietanza della lista é " + favouriteFood[favourit
 
 
 //bonus : stampo la pietanza mediana
-Console.WriteLine("\nAlla posizione centrale abbiamo: " + favouriteFood[(favouriteFood.Length/2) - 1] + ". Una bontá!");
+Console.WriteLine("\nBONUS: Alla posizione centrale abbiamo: " + favouriteFood[(favouriteFood.Length/2) - 1] + ". Una bontá!");
+
+
+Console.WriteLine("\nMade by Leonardo Serra classe 07");
