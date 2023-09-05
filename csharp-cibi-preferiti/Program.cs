@@ -5,7 +5,7 @@ Console.WriteLine("Ecco la lista dei miei cibi preferiti: ");
 string[] favouriteFood = { "Pizza", "Lasagne", "Orata", "Filetto al pepe verde", "Caprese", "Carbonara", "Pollo Arrosto", "Ramen", "Kebab" };
 
 //Stampo la lunghezza dell'array
-Console.WriteLine("Attualmente nella lista ci sono " + favouriteFood.Length + " pietanze.");
+Console.WriteLine("\nAttualmente nella lista ci sono " + favouriteFood.Length + " pietanze.");
 
 //ciclo l'array per stampare la lista
 for (int i = 0; i < favouriteFood.Length; i++)
@@ -14,9 +14,9 @@ for (int i = 0; i < favouriteFood.Length; i++)
 }
 
 //stampo la primo e l'ultima pietanza
-Console.WriteLine("Il mio cibo preferito é " + favouriteFood[0]+ "! Buonissima!");
-Console.WriteLine("L'ultima pietanza della lista é " + favouriteFood[favouriteFood.Length - 1] + "! Buono lo stesso :)");
+Console.WriteLine("\nIl mio cibo preferito é " + favouriteFood[0]+ "! Buonissima!");
+Console.WriteLine("\nL'ultima pietanza della lista é " + favouriteFood[favouriteFood.Length - 1] + "! Buono lo stesso :)");
 
 
 //bonus : stampo la pietanza mediana
-Console.WriteLine("Alla posizione centrale abbiamo: " + favouriteFood[(favouriteFood.Length/2) - 1] + ". Una bontá!");
+Console.WriteLine("\nAlla posizione centrale abbiamo: " + favouriteFood[(favouriteFood.Length/2) - 1] + ". Una bontá!");
