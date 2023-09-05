@@ -1,5 +1,5 @@
-# csharp-cibi-preferiti  
-=======================  
+csharp-cibi-preferiti  
+=====================
   
 Esercizio di oggi sugli Array: Miei cibi preferiti  
 --------------------------------------------------  
